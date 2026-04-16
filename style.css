@@ -1,0 +1,15 @@
+/* Custom smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Glow effect */
+h2 span {
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+/* Subtle hover animation */
+section div:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
